@@ -1,0 +1,84 @@
+@import url(./reset.css);
+
+/*Main Nav */
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+body > nav ul {
+    padding: 1em;
+}
+
+body > nav a li{
+    padding: 1em;
+}
+body > nav a {
+    text-decoration: none;
+    color: #c0392b;
+
+}
+body > nav a:hover{
+    color:#27ae60 ;
+}
+/* HEADER*/
+body > header{
+    height: 300px;
+    background: url(../images/mario-scheibl-_D8NxqtHivM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: aqua;
+
+}
+body> header h1{
+    font-size: 3.4em;
+}
+body> header h2{
+    font-size: 2.1em;
+}
+button{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background: #2c3e50;
+    color: beige;
+}
+
+/* MAIN*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+article 
+{
+    width: 200px;
+    padding: 1em;
+
+}
+article img{
+    width: 100%;
+}
+/*ASIDE*/
+aside {
+    width: 30%;
+    order: 1;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1em;
+
+}
